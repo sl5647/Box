@@ -83,7 +83,9 @@
         <activity
             android:name=".ui.activity.CollectActivity"
             android:screenOrientation="sensorLandscape" />
-
+        <activity
+                android:name=".ui.activity.SourceHomeActivity"
+                android:screenOrientation="sensorLandscape"/>
         <receiver android:name=".receiver.SearchReceiver">
             <intent-filter>
                 <action android:name="android.content.movie.search.Action" />
